@@ -27,7 +27,7 @@ nav {padding:4%;}
 
 .tag-contact {display:flex;margin-bottom:3%; margin-top:3%;}
 .tag-contact p {margin-top:auto; margin-bottom:auto; font-size:18px;}
-.ctc-img {width:10%; height:auto !important; margin-right:2%;}
+.ctc-img {width:10%; height:10% !important; margin-right:2%;}
 
 footer {padding:3%;}
 .rights {font-size:10px;}
