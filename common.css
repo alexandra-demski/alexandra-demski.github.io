@@ -43,3 +43,5 @@ nav {display:flex; padding:2%;}
 .skill-title {padding-bottom:3%;}
 .tag-skill {padding:1%;}
 .skill {margin:1%;}
+
+.ctc-img {align-items: flex-start;}
