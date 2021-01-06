@@ -4,15 +4,12 @@
 	<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--devices-->
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-		<link rel="stylesheet" href="./common.css"/>
-		<link rel="stylesheet" media="screen and (min-device-width:320px) and (max-device-width: 767px)" href="phone.css" />
-		<link rel="stylesheet" media="screen and (min-device-width: 768px)" href="other.css" />
+		<link rel="stylesheet" href="./style/common.css"/>
+		<link rel="stylesheet" media="screen and (min-device-width:320px) and (max-device-width: 767px)" href="./style/phone.css" />
+		<link rel="stylesheet" media="screen and (min-device-width: 768px)" href="./style/other.css" />
 		<link rel="shortcut icon" href="./img/favicon.ico"/>
 	<title>Alexandra Demski</title>
 </head>
-<style type="text/css">
-	.small-links {display:none;}
-</style>
 
 <script>
 view_page('home');
@@ -43,7 +40,7 @@ function view_page(name){
 				<button class="nav-btn" onclick="view_page('work')"><li class="nav-item">Work</li></button>
 				<button class="nav-btn" onclick="view_page('contact')"><li class="nav-item">Contact</li></button>
 			</ul>
-			<!--<a class="" href="">FRENCH VERSION</a>-->
+			<button class="nav-btn lang-btn"><a href="./french">French</a></button>
 		</nav>
 	</header>
 
@@ -52,13 +49,15 @@ function view_page(name){
 			<article id="home" class="parallax img-1">
 				<h3 class="subtitle-home">Hello & Welcome</h3>
 				<h1 class="title-home">I am Alexandra Demski</h1>
-				<p class="text-home">To me, Computer Science represents a meeting place for creative expression and logical reflexion, it allows me to challenge my knowledge and learn about my two passions : art and technology. I aspire to become a full-stack developer in order to keep coding and designing products and possibly forward my carrieer with a chief project position afterwards.</p><br><br>
-				<p class="cv-container"><a class="btn" href="">Download my resume</a></p>
+				<p class="text-home">To me, Computer Science represents a union between creative expression and logical reflexion, it allows me to challenge my knowledge and learn about my two passions : art and technology. I aspire to become a full-stack developer in order to keep coding and designing products and possibly forward my carrieer with a chief project position afterwards.</p><br><br>
+				<p class="btn-container">
+					<a class="btn" href="./doc/resume-alexandra-demski.pdf" download>Download my resume</a>
+				</p>
 			</article>
 
 			<article id="about">
 				<h2 class="title-section">About me</h2>
-				<p class="text-section">As an assiduous student, I believe that with hard work, organisation and, most importantly, determination, we can accomplish great things, that is why I tend to be ambitious in my life choices, and aim for an engineer’s degree in Computer Science to further learn and improve my skills in this fascinating domain. While Computer Science is one of my greatest interests, in my spare time, I also pursue creative hobbies such as painting and drawing. I like to keep myself busy while also learning and improving myself.</p>
+				<p class="text-section">As an assiduous student, I believe that with hard work, organisation and, most importantly, determination, we can accomplish great things, that is why I tend to be ambitious in my life choices, and aim for an engineer’s degree in Computer Science to further learn and improve my skills in this fascinating domain. While Computer Science is one of my greatest interests, in my spare time, I also pursue creative hobbies such as painting and drawing. I like to keep myself busy while also learning and improving myself through my interests.</p>
 				<div class="about-container">
 					<div class="about-article">
 						<h3 class="subtitle-section">Education & Degrees</h3>
@@ -82,7 +81,8 @@ function view_page(name){
 							<div class="skill">
 								<h4 class="skill-title">Programming</h4><hr>
 								<div class="tag-skill">Object Oriented (Java)</div>
-								<div class="tag-skill">Imperative (C, Python)</div>
+								<div class="tag-skill">Imperative (Python)</div>
+								<div class="tag-skill">Low-Level (C)</div>
 								<div class="tag-skill">Project Management</div>
 								<div class="tag-skill">Interface Conception</div>
 							</div>
@@ -114,14 +114,14 @@ function view_page(name){
 					<!--<a href="" target="_blank" class="btn">Read the Report</a>-->
 				</div><hr>
 				<div class="work-article">
-					<h4 class="date-project">16.11.2020</h4><br>
+					<h4 class="date-project">11.16.2020</h4><br>
 					<h3 class="subtitle-section">Malloc Library</h3><br>
 					<h5 class="tag-project">Library - C - Individual</h5><br>
 					<p class="info-project">In order to correctly understand how memory allocation works and to improve my programming skills, I developed a malloc library using the c language's system calls. My personnal library implements the functions malloc, free, calloc and realloc but I also added some improvements to enhance the efficiency.</p><br><br>
-					<a href="./malloc-library.html" target="_blank" class="btn">Read the Report</a> <a href="https://github.com/alexandra-demski/Malloc-Library" target="_blank" class="btn">See the Code</a>
+					<a href="./malloc-library" target="_blank" class="btn">Read the Report</a> <a href="https://github.com/alexandra-demski/Malloc-Library" target="_blank" class="btn">See the Code</a>
 				</div><hr>
 				<div class="work-article">
-					<h4 class="date-project">30.06.2020</h4><br>
+					<h4 class="date-project">06.30.2020</h4><br>
 					<h3 class="subtitle-section">Quaestio</h3><br>
 					<h5 class="tag-project">Website - HTML / CSS / JS / PHP / CodeIgniter - Individual</h5><br>
 					<p class="info-project">Quaestio started as a school project with a full-stack development. The goal was to create a website allowing the user to create and respond to quizzes. It quickly became a larger thing as I wanted to create an application which I, as a student, can use to organize my week around projects and exams. I question myself what features do I want, need and can help me to work more efficiently.</p><br><br>
@@ -130,7 +130,7 @@ function view_page(name){
 				</div><hr>
 
 				<div class="work-article">
-					<h4 class="date-project">10.04.2020</h4><br>
+					<h4 class="date-project">04.10.2020</h4><br>
 					<h3 class="subtitle-section">Sudoku</h3><br>
 					<h5 class="tag-project">Application - Java - Individual</h5><br>
 					<p class="info-project">In order to complete a sudoku grid, the player needs to fill each cell with a number between 1 and 9 with no duplicate in each row, column and square of the grid. The goal of this project was to programm this popular logic-based puzzle game and include it in a user-friendly environment with some automatic features such as the resolution and creation of a grid.</p><br><br>

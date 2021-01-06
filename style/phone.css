@@ -1,11 +1,14 @@
 article {padding-bottom:10%; padding-top:10%; padding-left:5%; padding-right:5%;}
 nav {padding:4%;}
 
-.nav-btn {margin-right:5%; font-size:15px;}
+.container-logo {width:10%; margin-right:5%;}
+.logo {font-size:12px;}
+.nav-btn {margin-right:5%; font-size:12px;}
 
 .title-home {font-size:30px;}
 .subtitle-home {font-size:23px;}
 .text-home {font-size:16px;}
+
 .btn {padding:3%;}
 
 .title-section {font-size:23px;}

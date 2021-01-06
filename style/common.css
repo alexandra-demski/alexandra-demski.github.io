@@ -1,7 +1,7 @@
-@font-face{font-family:'Varela'; src: url('./font/VarelaRound-Regular.ttf');}
-@font-face{font-family:'Roboto'; src: url('./font/Roboto-Regular.ttf');}
-@font-face{font-family:'Lobster'; src: url('./font/Lobster-Regular.ttf');}
-@font-face{font-family:'Source'; src: url('./font/SourceSansPro-Regular.ttf');}
+@font-face{font-family:'Varela'; src: url('../font/VarelaRound-Regular.ttf');}
+@font-face{font-family:'Roboto'; src: url('../font/Roboto-Regular.ttf');}
+@font-face{font-family:'Lobster'; src: url('../font/Lobster-Regular.ttf');}
+@font-face{font-family:'Source'; src: url('../font/SourceSansPro-Regular.ttf');}
 
 nav, footer {background-color:#8785a2;}
 body {background-color:#f6f6f6;}
@@ -11,7 +11,7 @@ body {background-color:#f6f6f6;}
 
 .title-home, .subtitle-home, .text-home, .nav-btn, .rights, .btn, #work, .tag-educ, a, #work hr{color:white;}
 body, .tag-contact p, .tag-contact a{color:#4a4a48;}
-.nav-btn:hover, .btn:hover, .skills, #about hr {color:#515070;}
+.nav-btn:hover, .btn:hover, .skills, #about hr, .nav-btn a:hover {color:#515070;}
 
 .nav-btn, .text-home, .title-section {font-family:'Varela';}
 .logo {font-family:'Lobster';}
@@ -19,11 +19,11 @@ body, .tag-contact p, .tag-contact a{color:#4a4a48;}
 .subtitle-section, .text-section, .btn, .tag-educ, .date-project, .skill-title {font-family:'Roboto';}
 
 .rights, #contact .title-section {text-align:center;}
-.logo {text-decoration:none;}
+.logo, .nav-btn a {text-decoration:none;}
 
 .parallax {background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;}
-.img-1 {background-image:url('./img/07.png');}
-.img-2 {background-image:url('./img/06.png');}
+.img-1 {background-image:url('../img/07.png');}
+.img-2 {background-image:url('../img/06.png');}
 
 * {margin: 0px; padding:0px; box-sizing:border-box; outline:none; z-index:1;}
 html{scroll-behavior: smooth;}
@@ -32,12 +32,11 @@ article {position:relative; width:100%; height:cover;}
 footer {position:relative;}
 
 nav {display:flex; padding:2%;}
-.container-logo {flex:1;}
-.nav-links {flex:2; display:flex; list-style:none;}
+.container-logo {flex:1 1 auto;}
+.nav-links {flex:2 1 auto; display:flex; list-style:none;}
 .nav-item {flex:1;}
-.nav-btn {border:none; cursor:pointer;transition:all 0.2s ease-in-out;}
-
-.cv-container {text-align:center;}
+.nav-btn, .nav-btn a {border:none; cursor:pointer;transition:all 0.2s ease-in-out;}
+.btn-container {text-align:center;}
 .btn {border: 2px solid white; cursor:pointer; text-decoration:none; font-weight:bold; transition:all 0.2s ease-in-out;}
 
 .skill-title {padding-bottom:3%;}
