@@ -17,7 +17,7 @@ nav {padding:2%;}
 .about-article {width:100%;}
 #about .text-section {text-align:justify;}
 #about .subtitle-section {margin-top:2%; margin-bottom:2%;}
-.skill-title{font-size:20px;}
+.skill-title {font-size:20px;}
 .skills {display:flex; height:cover;}
 .skill {flex:1;}
 .tag-educ {margin:1%; padding:1%;}
