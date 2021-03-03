@@ -18,8 +18,8 @@ nav {padding:2%;}
 #about .text-section {text-align:justify;}
 #about .subtitle-section {margin-top:2%; margin-bottom:2%;}
 .skill-title{font-size:20px;}
-.skills, .education {display:flex; height:cover;}
-.skill, .tag-educ {flex:1;}
+.skills {display:flex; height:cover;}
+.skill {flex:1;}
 .tag-educ {margin:1%; padding:1%;}
 
 .date-project {font-size:20px;}
