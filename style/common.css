@@ -3,15 +3,21 @@
 @font-face{font-family:'Lobster'; src: url('../font/Lobster-Regular.ttf');}
 @font-face{font-family:'Source'; src: url('../font/SourceSansPro-Regular.ttf');}
 
-nav, footer {background-color:#8785a2;}
-body {background-color:#f6f6f6;}
-#home, #work, .tag-educ {background-color:#515070;}
+:root {
+    --c1 : #7395AE;
+    --c2 : #557A95;
+    --c3 : #4a4a48;
+    --c4 : #f6f6f6;
+}
+nav, footer {background-color:var(--c1);}
+body {background-color:var(--c4);}
+#home, #work, .tag-educ {background-color:var(--c2);}
 .btn:hover {background-color:white;}
 .nav-btn, .btn {background-color:transparent;}
 
 .title-home, .subtitle-home, .text-home, .nav-btn, .rights, .btn, #work, .tag-educ, a, #work hr{color:white;}
-body, .tag-contact p, .tag-contact a{color:#4a4a48;}
-.nav-btn:hover, .btn:hover, .skills, #about hr, .nav-btn a:hover {color:#515070;}
+body, .tag-contact p, .tag-contact a{color:var(--c3);}
+.nav-btn:hover, .btn:hover, .skills, #about hr, .nav-btn a:hover {color:var(--c2);}
 
 .nav-btn, .text-home, .title-section {font-family:'Varela';}
 .logo {font-family:'Lobster';}
