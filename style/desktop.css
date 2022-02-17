@@ -21,6 +21,8 @@ nav {padding:2%;}
 .skills {display:flex; height:cover;}
 .skill {flex:1;}
 .tag-educ {margin:1%; padding:1%;}
+.tag-exp {font-size:20px; margin-bottom:3%;}
+.tag-exp li {font-size:18px; margin-left:2%;}
 
 .date-project {font-size:20px;}
 .tag-project {font-size:20px;}

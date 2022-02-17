@@ -20,7 +20,9 @@ nav {padding:4%;}
 .tag-skill {padding:1%;}
 .tag-educ {font-size:14px; margin-bottom:3%;}
 .tag-educ {padding:3%;}
-.skill {margin-bottom:2%; margin-top:2%;}
+.tag-exp {font-size:16px; margin-bottom:5%;}
+.tag-exp li {font-size:14px; margin-left:4%;}
+.skill {margin-bottom:3%; margin-top:2%;}
 
 .work-article {margin-top:10%; margin-bottom:10%;}
 
