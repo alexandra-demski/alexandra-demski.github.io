@@ -17,12 +17,12 @@ body {background-color:var(--c4);}
 
 .title-home, .subtitle-home, .text-home, .nav-btn, .rights, .btn, #work, .tag-educ, a, #work hr{color:white;}
 body, .tag-contact p, .tag-contact a{color:var(--c3);}
-.nav-btn:hover, .btn:hover, .nav-btn a:hover {color:var(--c2);}
+.nav-btn:hover, .btn:hover, .nav-btn a:hover, .tag-cert a {color:var(--c2);}
 
 .nav-btn, .text-home, .title-section {font-family:'Varela';}
 .logo {font-family:'Lobster';}
 .title-home, .subtitle-home, .tag-skill, .tag-exp, .info-project, .tag-project, .tag-contact p, .rights {font-family:'Source';}
-.subtitle-section, .text-section, .btn, .tag-educ, .date-project, .skill-title {font-family:'Roboto';}
+.subtitle-section, .text-section, .btn, .tag-educ, .tag-cert, .date-project, .skill-title {font-family:'Roboto';}
 
 .rights, #contact .title-section {text-align:center;}
 .logo, .nav-btn a {text-decoration:none;}

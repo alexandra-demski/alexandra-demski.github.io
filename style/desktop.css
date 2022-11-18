@@ -20,6 +20,7 @@ nav {padding:2%;}
 .skill-title {font-size:20px;}
 .skills {display:flex; height:cover;}
 .skill {flex:1;}
+.tag-cert {margin-top:1%; margin-bottom:1%; padding-top:1%; padding-bottom:1%;}
 .tag-educ {margin:1%; padding:1%;}
 .tag-exp {font-size:20px; margin-bottom:3%;}
 .tag-exp li {font-size:18px; margin-left:2%;}
